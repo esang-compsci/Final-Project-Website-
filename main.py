@@ -1,6 +1,18 @@
 from drafter import *
 from dataclasses import dataclass
 
+set_website_title("Prosthetic Limb Finder")
+
+set_site_information(
+    author="Elena Sangemino",
+    description="Explore prosthetic limb options based on your activity level, interests, and desired features.",
+    sources="Prosthetic product information from manufacturers including Ottobock, Össur, Fillauer, and College Park. Created with the help of Drafter documentation.",
+    planning=["https://github.com/esang-compsci/Final-Project-Website-/blob/main/CS1FinalProject0_PickaProblemElenaSangemino.pdf", "https://github.com/esang-compsci/Final-Project-Website-/blob/main/CS1FinalProject1_Design.pdf"],
+    links=["https://github.com/esang-compsci/Final-Project-Website-"]
+)
+
+hide_debug_information()
+set_website_framed(False)
 
 @dataclass
 class Prosthetic:
